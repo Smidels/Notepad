@@ -1,1 +1,1 @@
-# notepad
+# Simple flask app
