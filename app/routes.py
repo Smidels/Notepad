@@ -22,9 +22,8 @@ def add_note():
 def view_notes():
     form = DeleteNotes()
     if form.validate_on_submit():
-        for note in Note.query.all():
-            db.session.delete(note)
-            db.session.commit()
+        Note.query.delete()
+        db.session.commit()
         redirect(url_for('view_notes'))
 
 
