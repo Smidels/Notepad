@@ -1,6 +1,7 @@
 # Web Notepad
 	
-	A simple site contains two pages. In the first page you can enter and save the note, on the other see all notes and clear notepad. Sorting by number of unigue words.
+	A simple site contains two pages. In the first page you can enter and save the note,
+	on the other see all notes and clear notepad. Sorting by number of unigue words.
 
 # For start you must create virtualenv:
 
@@ -18,6 +19,8 @@
 
 	(venv)>set FLASK_APP=notepad.py
 
-# Run the server and go to the http://127.0.0.1:5000/:
+# Run the server:
 	
 	(venv)>flask run
+ 
+  and go to the http://127.0.0.1:5000/
